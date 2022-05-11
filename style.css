@@ -1,6 +1,11 @@
 body
 {
+    margin: auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #F2E96B;
+
+    background-image: url(images/bgtile.png);
+    background-blend-mode: multiply;
 }
 
 img
@@ -11,8 +16,9 @@ img
 
 #Main
 {
-    max-width: 1024px;
+    max-width: 1280px;
     margin: auto;
+    background-color: #F2F2F2;
 }
 
 #Top
@@ -48,7 +54,70 @@ img
 .Poster
 {
     flex: 1;
-    min-width: 300px;
+    min-width: 350px;
 
     padding: 20px;
+}
+
+#Nav, #Footer
+{
+    display: flex;
+    background-color: #BF6576;
+    align-items: center;
+}
+
+#Nav a
+{
+    display: block;
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    font-weight: 600;
+
+    text-decoration: none;
+}
+
+#Nav a:link
+{
+    color: #F2F2F2;
+}
+
+#Nav a:visited
+{
+    color: #F2F2F2;
+}
+
+#Nav a:hover
+{
+    
+    background-color: #D98E04;
+}
+
+#Nav a:active
+{
+    background-color: #F2E96B;
+    color: #A67360;
+}
+
+#Footer p
+{
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    color: #F2F2F2;
+
+    font-weight: 600;
+}
+
+#Content
+{
+    padding: 60px;
+}
+
+#Content h1
+{
+    padding: 20px;
+    background-color: #A67360;
+    margin-top: auto;
+    color: #F2F2F2;
 }
