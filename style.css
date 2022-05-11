@@ -1,0 +1,54 @@
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img
+{
+    width: 100%;
+    display: block;
+}
+
+#Main
+{
+    max-width: 1024px;
+    margin: auto;
+}
+
+#Top
+{
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    background-image: url(images/candybanner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+
+    display: flex;
+    align-items: center;
+}
+
+#Top h1
+{
+    color: white;
+    font-size: 5em;
+
+    text-align: center;
+    flex: 1;
+
+    text-shadow: 5px 5px #000000;
+}
+
+#Posters
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Poster
+{
+    flex: 1;
+    min-width: 300px;
+
+    padding: 20px;
+}
